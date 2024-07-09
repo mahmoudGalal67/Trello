@@ -1,6 +1,7 @@
 .views {
   margin: 45px 0;
   padding: 0 16%;
+  width: 100vw;
 }
 
 .views .wrapper {
@@ -21,7 +22,8 @@
 
 .views .wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 100%;
   align-items: center;
   gap: 25px;
 }

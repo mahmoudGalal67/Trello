@@ -25,22 +25,22 @@ function NavBar() {
     <Navbar className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#">
-          <Link to="/brand">
-            {" "}
-            <img
-              src="logo.gif"
-              style={{
-                backgroundColor: "#0B5ED7",
-                width: "80px",
-                height: "30px",
-                objectFit: "contain",
-                borderRadius: "5px",
-              }}
-              alt=""
-            />
-          </Link>
+          {" "}
+          <img
+            src="logo.gif"
+            style={{
+              backgroundColor: "#0B5ED7",
+              width: "80px",
+              height: "30px",
+              objectFit: "contain",
+              borderRadius: "5px",
+            }}
+            alt=""
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
+        <Link to="/board">Board</Link>
+
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"

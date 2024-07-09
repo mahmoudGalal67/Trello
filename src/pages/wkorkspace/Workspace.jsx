@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "../../components/navbar/Navbar";
 
 import { workspaces } from "../../../fakeData";
+import { Link } from "react-router-dom";
 
 function Workspace() {
   return (
