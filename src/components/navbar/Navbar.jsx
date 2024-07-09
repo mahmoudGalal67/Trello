@@ -8,7 +8,6 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 import { useLocation } from "react-router-dom";
-import { redirect } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 import "./navbar.css";
