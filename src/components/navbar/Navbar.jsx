@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 import "./navbar.css";
@@ -25,17 +25,20 @@ function NavBar() {
     <Navbar className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#">
-          <img
-            src="logo.gif"
-            style={{
-              backgroundColor: "#0B5ED7",
-              width: "80px",
-              height: "30px",
-              objectFit: "contain",
-              borderRadius: "5px",
-            }}
-            alt=""
-          />
+          <Link to="/brand">
+            {" "}
+            <img
+              src="logo.gif"
+              style={{
+                backgroundColor: "#0B5ED7",
+                width: "80px",
+                height: "30px",
+                objectFit: "contain",
+                borderRadius: "5px",
+              }}
+              alt=""
+            />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
