@@ -39,7 +39,6 @@ function NavBar() {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Link to="/board">Board</Link>
 
         <Navbar.Collapse id="navbarScroll">
           <Nav

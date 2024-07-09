@@ -57,3 +57,9 @@ nav .navbar-nav {
     display: none !important;
   }
 }
+@media (max-width: 500px) {
+  .container {
+    justify-content: space-around !important;
+    flex-wrap: wrap !important;
+  }
+}

@@ -10,6 +10,8 @@ import { Link } from "react-router-dom";
 function Workspace() {
   return (
     <div className="home">
+      <Link to="/board">Board</Link>
+
       <Navbar />
       <div className="views">
         <h2>YOUR WORKSPACES</h2>
