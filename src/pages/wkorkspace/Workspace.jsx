@@ -4,7 +4,7 @@ import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "../../components/navbar/Navbar";
 
-import { workspaces } from "../../../../fakeData";
+import { workspaces } from "../../fakeData";
 
 function Workspace() {
   return (
